@@ -11,7 +11,7 @@ Today, we'll be using Redux to build out an app to list out cocktails. We'll use
 1. Create a reducer to respond to an action called 'FETCH_COCKTAILS'. This should return a new array representing the action's payload.
 2. Create an action creator called `fetchCocktails` that returns an action and a payload representing a list of cocktails.
 3. In our `index.js` file, create a new store using a rootReducer (hint: You'll need to create a `rootReducer` using combineReducers)
-4. Once you create the store, wire it up to the neccessary components using `Provider`, `mapStateToProps`, and `connect`
+4. Once you create the store, wire it up to the necessary components using `Provider`, `mapStateToProps`, and `connect`
 5. Use the `componentDidMount` lifecycle method in your component to dispatch your `fetchCocktails` action.
 
 This is hard. It's supposed to be hard. Work together - you guys can do this!
